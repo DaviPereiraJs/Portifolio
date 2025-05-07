@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Davi Nascimento | Portfólio</title>
+</head>
+<body>
+
+    <div class="particulas"></div>
+
+    <nav class="navegacao">
+        <ul class="menu">
+            <li><a href="#inicio" class="menu-link">Início</a></li>
+            <li><a href="#sobre" class="menu-link">Sobre</a></li>
+            <li><a href="#projetos" class="menu-link">Projetos</a></li>
+            <li><a href="#contatos" class="menu-link">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main id="inicio" class="cabecalho">
+        <img src="/imgs/Davi.jpg" alt="Foto do Davi Nascimento" class="foto-perfil">
+        <h1>Davi Nascimento</h1>
+        <p class="cabecalho-sub-titulo">Desenvolvedor Front End</p>
+        <p class="cabecalho-sub-titulo">Cursante de ADS - Análise e desenvolvimento de Sistemas pelo IFCE Campus Boa - Viagem.</p>
+    </main>
+
+    <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Sobre Mim!</h2>
+        <br>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">
+                Olá! Sou um Desenvolvedor Front-End fascinado por desenvolvimento de sites, páginas e ecomerces gamer em gerais. 
+                Combino código limpo com design moderno, que não só funciona perfeitamente, mas também impressiona visualmente.
+            </p>
+        </div>
+    </section>
+
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulo">Meus Projetos</h2>
+        <div class="projetos-caixa">
+            <div class="projetos-card">
+                <img src="/imgs/homi-office.jpeg" alt="Projeto 1" class="projeto-imagem">
+                <div class="caixa-textos-projetos">
+                <h3 class="info-projetos">Game - Store</h3>
+                <p class="paragrafo-projeto">Ecomercer Gamer - Projeto feito com afins de facilitar a compra de produtos gamers, com o preço que cabe no seu bolso!</p>
+            </div>
+            </div>
+            <div class="projetos-card">
+                <img src="/imgs/eletronicos.jpeg" alt="Projeto 2" class="projeto-imagem">
+                <div class="caixa-textos-projetos">
+                <h3 class="info-projetos">Portifolio</h3>
+                <p class="paragrafo-projeto">Criei meu propio portifolio baseado em um tipo de desing que costumo usar em desing de paginas. Um desing limpo, com cores armonicas e de facil acessibilidade. </p>
+            </div>
+            </div>
+            <div class="projetos-card">
+                <img src="/imgs/viagens.jpeg" alt="Projeto 3" class="projeto-imagem">
+                <div class="caixa-textos-projetos">
+                <h3 class="info-projetos">Embarcar.com</h3>
+                <p class="paragrafo-projeto">Embarcar.com, projeto criado para facilitar a compra de passagens de onibus, tanto normal como execultivo,podendo cancelar a sua compra dentro de um perildo de 24 horas!</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contatos" class="contatos">
+        <h2 class="contatos-titulo">Entre em Contato</h2>
+        <form action="" class="formulario-contato" id="formulario" onsubmit="enviarWhats(event)">
+            <div class="grupo-form">
+                <input placeholder="Nome" class="campo-form" id="nome">
+            </div>
+            <div class="grupo-form">
+                <textarea class="campo-form" placeholder="Digite sua Mensagem" rows="4" id="mensagem"></textarea> 
+            </div>
+            <button type ="submit" class="botao-form">Enviar WhatsApp</button>
+        </form>
+    </section>
+
+    <script src="/index.js"></script>
+</body>
+</html>
