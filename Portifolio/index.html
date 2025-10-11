@@ -4,26 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Portifolio/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="/Portifolio/imgs/Dn-Logo.png">
     <title>Davi Nascimento | Portfólio</title>
 </head>
 <body>
 
     <div class="particulas"></div>
-
-    <nav class="navegacao">
-        <ul class="menu">
-            <li><a href="#inicio" class="menu-link">Início</a></li>
-            <li><a href="#sobre" class="menu-link">Sobre</a></li>
-            <li><a href="#projetos" class="menu-link">Projetos</a></li>
-            <li><a href="#contatos" class="menu-link">Contato</a></li>
-        </ul>
-    </nav>
+    
+    <div class="navegacao-wrapper">
+        <nav class="navegacao">
+            <a href="#inicio" class="logo-nav" aria-label="Página Inicial">
+                <img src="/Portifolio/imgs/DN-Logo-navbar.png" alt="Logo Davi Nascimento" class="logo-img">
+            </a>
+            <ul class="menu">
+                <li><a href="#inicio" class="menu-link">Início</a></li>
+                <li><a href="#sobre" class="menu-link">Sobre</a></li>
+                <li><a href="#skills" class="menu-link">Habilidades</a></li>
+                <li><a href="#projetos" class="menu-link">Projetos</a></li>
+                <li><a href="#contatos" class="menu-link">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
 
     <main id="inicio" class="cabecalho">
-        <img src="/Portifolio/imgs/eletronicos.jpeg" alt="Foto do Davi Nascimento" class="foto-perfil">
+        <img src="/Portifolio/imgs/MInha foto.jpg" alt="Foto do Davi Nascimento em um fundo escuro" class="foto-perfil">
         <h1>Davi Nascimento</h1>
-        <p class="cabecalho-sub-titulo">Desenvolvedor Front End</p>
-        <p class="cabecalho-sub-titulo">Cursante de ADS - Análise e desenvolvimento de Sistemas pelo IFCE Campus Boa - Viagem.</p>
+        <h3 class="cabecalho-sub-titulo">Desenvolvedor Front End | Freelancer</h3>
+        <br>
+        <p class="cabecalho-sub-titulo">Cursante de ADS - Análise e Desenvolvimento de Sistemas pelo IFCE Campus Boa - Viagem.</p>
     </main>
 
     <section id="sobre" class="sobre">
@@ -31,52 +40,133 @@
         <br>
         <div class="sobre-caixa">
             <p class="sobre-paragrafo">
-                Olá! Sou um Desenvolvedor Front-End fascinado por desenvolvimento de sites, páginas e ecomerces gamer em gerais. 
-                Combino código limpo com design moderno, que não só funciona perfeitamente, mas também impressiona visualmente.
+                Sou Davi Nascimento Pereira, desenvolvedor Front-End e Freelancer, especializado em criar experiências digitais intuitivas e responsivas.
+                Acredito que um bom design aliado a um código bem estruturado pode transformar a forma como as pessoas interagem com a tecnologia.
+                Trabalho com React, Tailwind, JavaScript, HTML e CSS, e tenho experiência com integrações de APIs, automação de processos e sistemas personalizados.
+                Meu objetivo é ajudar empresas e pessoas a transformar ideias em soluções funcionais e atraentes, com foco em usabilidade, performance e identidade visual.
             </p>
         </div>
     </section>
 
+    <section id="skills" class="skills">
+        <h2 class="skills-titulo">Habilidades</h2>
+
+        <div class="skills-grupo">
+            <h3 class="skills-sub-titulo">Front-End</h3>
+            <div class="skills-caixa">
+                <img alt="Badge da tecnologia HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+                <img alt="Badge da tecnologia CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+                <img alt="Badge da tecnologia JavaScript" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
+                <img alt="Badge da tecnologia TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
+                <img alt="Badge da tecnologia React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+                <img alt="Badge da tecnologia Bootstrap" src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"/>
+                <img alt="Badge da tecnologia Tailwind CSS" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
+            </div>
+        </div>
+
+        <div class="skills-grupo">
+            <h3 class="skills-sub-titulo">Back-End</h3>
+            <div class="skills-caixa">
+                <img alt="Badge da tecnologia Node.js" src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/>
+                <img alt="Badge da tecnologia JavaScript para Back-End" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
+                <img alt="Badge da tecnologia TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
+                <img alt="Badge da tecnologia MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+                <img alt="Badge da tecnologia Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+            </div>
+        </div>
+
+        <div class="skills-grupo">
+            <h3 class="skills-sub-titulo">Ferramentas</h3>
+            <div class="skills-caixa">
+                <img alt="Badge da ferramenta Visual Studio Code" src="https://img.shields.io/badge/-Visual%20Studio%20Code-0D1117?style=for-the-badge&logo=visual-studio-code&logoColor=0D1117&labelColor=0D1117"/>
+                <img alt="Badge da ferramenta Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+                <img alt="Badge da ferramenta GitHub" src="https://img.shields.io/badge/-GitHub-0D1117?style=for-the-badge&logo=github&labelColor=0D1117"/>
+                <img alt="Badge da tecnologia Bootstrap" src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"/>
+            </div>
+        </div>
+    </section>
+
     <section id="projetos" class="projetos">
-        <h2 class="projetos-titulo">Meus Projetos</h2>
+        <h2 class="projetos-titulo">Projetos em Destaque</h2>
         <div class="projetos-caixa">
             <div class="projetos-card">
-                <img src="/imgs/homi-office.jpeg" alt="Projeto 1" class="projeto-imagem">
+                <img src="/Portifolio/imgs/Atletas-Em-Foco.jpg" alt="Atletas-Em-Foco" class="projeto-imagem">
                 <div class="caixa-textos-projetos">
-                <h3 class="info-projetos">Game - Store</h3>
-                <p class="paragrafo-projeto">Ecomercer Gamer - Projeto feito com afins de facilitar a compra de produtos gamers, com o preço que cabe no seu bolso!</p>
-            </div>
+                    <h3 class="info-projetos">Atletas em Foco</h3>
+                    <p class="paragrafo-projeto">Está precisando de um sistema para o controle de mensalidades? o Atletas em Foco foi feito para você! Criado para facilicar o controle de mensalidades para arenas society, academias e outros!</p>
+                    <br>
+                    <a href="https://github.com/DaviPereiraJs/Projeto-Final.git">Acessar respositório</a>
+                </div>
             </div>
             <div class="projetos-card">
-                <img src="/imgs/eletronicos.jpeg" alt="Projeto 2" class="projeto-imagem">
+                <img src="/Portifolio/imgs/Dn-Logo.png" alt="Logo Portfólio" class="projeto-imagem">
                 <div class="caixa-textos-projetos">
-                <h3 class="info-projetos">Portifolio</h3>
-                <p class="paragrafo-projeto">Criei meu propio portifolio baseado em um tipo de desing que costumo usar em desing de paginas. Um desing limpo, com cores armonicas e de facil acessibilidade. </p>
-            </div>
+                    <h3 class="info-projetos">Portifolio</h3>
+                    <p class="paragrafo-projeto">Projeto de portfólio autoral, concebido para refletir minha filosofia de design: 'Menos é mais'. O resultado é um layout limpo e intuitivo, onde o código é otimizado para performance e a estética se baseia na harmonia de cores (dark mode) e na navegação simplificada.</p>
+                     <br>
+                 <a class="btn" href="https://github.com/DaviPereiraJs/Portifolio.git">Acessar respositório</a>
+                </div>
+               
             </div>
             <div class="projetos-card">
-                <img src="/imgs/viagens.jpeg" alt="Projeto 3" class="projeto-imagem">
+                <img src="/Portifolio/imgs/logo_rv-removebg-preview.png" alt="Logo revoltion" class="projeto-imagem">
                 <div class="caixa-textos-projetos">
-                <h3 class="info-projetos">Embarcar.com</h3>
-                <p class="paragrafo-projeto">Embarcar.com, projeto criado para facilitar a compra de passagens de onibus, tanto normal como execultivo,podendo cancelar a sua compra dentro de um perildo de 24 horas!</p>
+                    <h3 class="info-projetos">Revolution</h3>
+                    <p class="paragrafo-projeto">Está precisando de uma página de cadastro para eventos? Aqui está a solução para os seus problemas! A Revolution foi criado com propósito de agendar eventos corporativos, palestras e outros! Oferecendo uma oportunidade única de reunir profissionais, parceiros e colaboradores em um ambiente dinâmico e inspirador.</p>
+                    <br>
+                    <a href="https://revolution-pagina-de-cadastro-ck8f.vercel.app/">Acesse a nossa página</a>
+                </div>
             </div>
-            </div>
+                <div class="ver-mais-projetos">
+        <a href="https://github.com/DaviPereiraJs?tab=repositories" target="_blank" class="botao-github">
+            Ver Todos os Projetos no GitHub <i class="fab fa-github"></i>
+        </a>
+    </div>
         </div>
     </section>
 
     <section id="contatos" class="contatos">
         <h2 class="contatos-titulo">Entre em Contato</h2>
-        <form action="" class="formulario-contato" id="formulario" onsubmit="enviarWhats(event)">
-            <div class="grupo-form">
-                <input placeholder="Nome" class="campo-form" id="nome">
-            </div>
-            <div class="grupo-form">
-                <textarea class="campo-form" placeholder="Digite sua Mensagem" rows="4" id="mensagem"></textarea> 
-            </div>
-            <button type ="submit" class="botao-form">Enviar WhatsApp</button>
-        </form>
-    </section>
+        <div class="formulario-contato">
+            
+            <p style="text-align: center; margin-bottom: 1.5rem; color: var(--claro);">
+                Envie uma mensagem direta pelo WhatsApp ou utilize o formulário de e-mail abaixo.
+            </p>
 
-    <script src="/index.js"></script>
+            <form action="" id="formulario" onsubmit="enviarWhats(event)">
+                <div class="grupo-form">
+                    <input placeholder="Nome" class="campo-form" id="nome" name="nome" type="text" required>
+                </div>
+                <div class="grupo-form">
+                    <textarea class="campo-form" placeholder="Digite sua Mensagem" rows="4" id="mensagem" name="mensagem" required></textarea> 
+                </div>
+                <button type ="submit" class="botao-form">
+                    <i class="fab fa-whatsapp"></i> Enviar WhatsApp
+                </button>
+            </form>
+
+            <div class="contatos-extras">
+                <h3 style="font-size: 1.2rem; margin-top: 2.5rem; color: var(--secundaria); text-align: center;">Ou entre em contato por outras vias:</h3>
+                <div class="redes-sociais" style="margin-top: 1rem; gap: 2rem;">
+                    <a href="mailto:dn2128494@email.com" target="_blank" aria-label="Enviar E-mail">
+                        <i class="fas fa-envelope" style="font-size: 2rem;"></i>
+                    </a>
+                    <a href="https://br.linkedin.com/?mcid=6821526239111716925&src=go-pa&trk=sem-ga_campid.12619604099_asid.149519181115_crid.725790844702_kw.linkedin_d.c_tid.kwd-148086543_n.g_mt.e_geo.20089&cid=&gclsrc=aw.ds&gad_source=1&gad_campaignid=12619604099&gbraid=0AAAAABhL5JPT_hesvQXzvG_MNOfmWf3E4&gclid=Cj0KCQjwgKjHBhChARIsAPJR3xcrOSXp3e-MHykKlOABNC90z4J5ApUCxRs_3byUAV6T_aGuPlfQ-9caAs8vEALw_wcB" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin" style="font-size: 2rem;"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="rodape">
+        <p>&copy; 2025 Davi Nascimento. Todos os direitos reservados.</p>
+        <div class="redes-sociais">
+            <a href="https://github.com/DaviPereiraJs" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://br.linkedin.com/?mcid=6821526239111716925&src=go-pa&trk=sem-ga_campid.12619604099_asid.149519181115_crid.725790844702_kw.linkedin_d.c_tid.kwd-148086543_n.g_mt.e_geo.20089&cid=&gclsrc=aw.ds&gad_source=1&gad_campaignid=12619604099&gbraid=0AAAAABhL5JPT_hesvQXzvG_MNOfmWf3E4&gclid=Cj0KCQjwgKjHBhChARIsAPJR3xcrOSXp3e-MHykKlOABNC90z4J5ApUCxRs_3byUAV6T_aGuPlfQ-99caAs8vEALw_wcB" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/_davinp.17/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="./index.js"></script>
 </body>
 </html>
